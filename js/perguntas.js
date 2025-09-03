@@ -38,5 +38,33 @@ texto: "nike", //primeira alternativa
 ]
   },
   {
-    enunciado
+    enunciado: "pergunta 4",
+    alternativas: [
+      {
+        texto: "nike",
+        afirmacao: [
+          "voce tem bom gosto",
+          "afirmacao 2"
+        ],
+      },
+      {
+        texto: "adidas",
+        afirmacao: [
+          "voce e vaiado",
+          "voce nao sabe escolher"
+        ]
+      }
+        ]
+      }
+    {
+      enunciado: "voce prefere nike ou adidas?",
+      alternativas: [
+        {
+          texto: "nike",
+          afirmacao: [
+            "voce tem bom gosto"
+          ]
+        }
+      ]
+    }
 
