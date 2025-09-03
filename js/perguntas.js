@@ -9,5 +9,34 @@ texto: "nike", //primeira alternativa
         "afirmaçao 2"       //segundo comentario
         ],
     },
-    .
+    {
+      texto: "adidas",
+      afirmacao: {
+        "voce e vaiado",
+        "voce nao sabe escolher"
+         ],
+      }
+    ]
+  },
+  {
+  enunciado: "pergunta 2"
+  alternativas: [
+  {
+    texto: "nike",
+    afirmacao: [
+      "voce tem bom gosto",
+      "afirmaçao 2"
+    ],
+  },
+  {,
+    texto: "adidas",
+    afirmacao: [
+      "voce e vaiado",
+      "voce nao sabe escolher"
+    ],
+  }
+]
+  },
+  {
+    enunciado
 
