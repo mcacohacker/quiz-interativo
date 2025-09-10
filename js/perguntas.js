@@ -63,8 +63,11 @@ texto: "nike", //primeira alternativa
           texto: "nike",
           afirmacao: [
             "voce tem bom gosto"
-          ]
-        }
+            "afirmacao 2"
+          ],
+        },
+        {
+        
       ]
     }
 
