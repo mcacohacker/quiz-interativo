@@ -28,7 +28,7 @@ texto: "nike", //primeira alternativa
       "afirmaçao 2"
     ],
   },
-  {,
+  {
     texto: "adidas",
     afirmacao: [
       "voce e vaiado",
