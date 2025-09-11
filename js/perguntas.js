@@ -11,7 +11,7 @@ texto: "nike", //primeira alternativa
     },
     {
       texto: "adidas",
-      afirmacao: {
+      afirmacao: [
         "voce e vaiado",
         "voce nao sabe escolher"
          ],
@@ -67,7 +67,32 @@ texto: "nike", //primeira alternativa
           ],
         },
         {
-        
+        texto: "adidas",
+        afirmacao: [
+          "voce e vaiado",
+          "voce nao sabe escolher"
+        ]
+        }
       ]
-    }
+  },
+  {
+    enunciado: "pergunta 5",
+    alternativas: [
+      {
+        texto: "nike",
+        afirmacao: [
+          "voce tem bom gosto",
+          "afirmacao 2"
+        ]
+      }
+      {
+        texto: "adidas",
+        afirmacao: [
+          "voce e vaiado",
+          "voce nao sabe escolher"
+        ]
+      }
+    ]
+  }
+]
 
