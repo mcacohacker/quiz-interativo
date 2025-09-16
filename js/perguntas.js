@@ -1,105 +1,107 @@
 export const perguntas = [
     {
-        enunciado: "Você prefere nike ou adidas?",  //a pergunta
+        enunciado: "Qual é a organela celular responsável pela respiração celular e produção de energia (ATP)?",
         alternativas: [
             {
-                texto: "nike", //primeira alternativa
+                texto: "Mitocôndria",
                 afirmacao: [
-                    "você tem bom gosto", //comentário para a resposta
-                    "afirmação 2"        //segundo comentário
+                    "Correto!",
+                    "As mitocôndrias são conhecidas como as 'usinas de energia' da célula."
                 ],
                 proxima: 1,
             },
             {
-                texto: "adidas",
+                texto: "Ribossomo",
                 afirmacao: [
-                    "você é vaiado",
-                    "você não sabe escolher"
+                    "Incorreto.",
+                    "Os ribossomos são responsáveis pela síntese de proteínas, não pela produção de energia."
                 ],
                 proxima: 1,
             }
         ]
     },
     {
-        enunciado: "pergunta 2",
+        enunciado: "Qual processo as plantas usam para converter luz solar em energia química (glicose)?",
         alternativas: [
             {
-                texto: "nike",
+                texto: "Fotossíntese",
                 afirmacao: [
-                    "você tem bom gosto",
-                    "afirmação 2"
+                    "Excelente!",
+                    "A fotossíntese é fundamental para a vida na Terra, pois produz oxigênio e a base da maioria das cadeias alimentares."
                 ],
                 proxima: 2,
             },
             {
-                texto: "adidas",
+                texto: "Respiração",
                 afirmacao: [
-                    "você é vaiado",
-                    "você não sabe escolher"
+                    "Não é bem isso.",
+                    "As plantas também respiram, mas a fotossíntese é o processo de conversão de luz em energia."
                 ],
                 proxima: 2,
             }
         ]
     },
     {
-        enunciado: "pergunta 4",
+        enunciado: "O que é o DNA?",
         alternativas: [
             {
-                texto: "nike",
+                texto: "Uma proteína que transporta oxigênio.",
                 afirmacao: [
-                    "você tem bom gosto",
-                    "afirmação 2"
+                    "Resposta errada.",
+                    "A molécula que transporta oxigênio é a hemoglobina. O DNA carrega informações genéticas."
                 ],
                 proxima: 3,
             },
             {
-                texto: "adidas",
+                texto: "A molécula que carrega as instruções genéticas dos seres vivos.",
                 afirmacao: [
-                    "você é vaiado",
-                    "você não sabe escolher"
+                    "Isso mesmo!",
+                    "O DNA (Ácido Desoxirribonucleico) contém todas as informações para o desenvolvimento e funcionamento de um organismo."
                 ],
                 proxima: 3,
             }
         ]
     },
     {
-        enunciado: "Você prefere nike ou adidas?",
+        enunciado: "Qual dos reinos a seguir é composto por organismos procariontes (sem núcleo celular definido)?",
         alternativas: [
             {
-                texto: "nike",
+                texto: "Reino Monera",
                 afirmacao: [
-                    "você tem bom gosto",
-                    "afirmação 2"
+                    "Perfeito!",
+                    "O Reino Monera inclui as bactérias e cianobactérias, que são exemplos clássicos de seres procariontes."
                 ],
                 proxima: 4,
             },
             {
-                texto: "adidas",
+                texto: "Reino Fungi",
                 afirmacao: [
-                    "você é vaiado",
-                    "você não sabe escolher"
+                    "Incorreto.",
+                    "Os fungos, como cogumelos e leveduras, são eucariontes, ou seja, suas células possuem um núcleo definido."
                 ],
                 proxima: 4,
             }
         ]
     },
     {
-        enunciado: "pergunta 5",
+        enunciado: "Como é chamado o processo de divisão celular que resulta em duas células-filhas geneticamente idênticas?",
         alternativas: [
             {
-                texto: "nike",
+                texto: "Meiose",
                 afirmacao: [
-                    "você tem bom gosto",
-                    "afirmação 2"
+                    "Quase lá!",
+                    "A meiose é o processo que produz gametas (células sexuais) com metade do material genético."
                 ],
+                // A última pergunta não precisa da propriedade "proxima"
             },
             {
-                texto: "adidas",
+                texto: "Mitose",
                 afirmacao: [
-                    "você é vaiado",
-                    "você não sabe escolher"
+                    "Exato!",
+                    "A mitose é crucial para o crescimento, reparo de tecidos e reprodução assexuada."
                 ],
+                 // A última pergunta não precisa da propriedade "proxima"
             }
         ]
     }
-]
+];
